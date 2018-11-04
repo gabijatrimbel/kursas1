@@ -1,0 +1,12 @@
+body{
+  font-family: sans-serif;
+}
+h1, h2{
+  color: #e0218a;
+}
+p span{
+  font-style: italic;
+}
+.parag{
+  color: rgba(81, 50, 21, 0.9);
+}
