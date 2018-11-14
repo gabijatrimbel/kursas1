@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      var firstNumber = prompt("Iveskite daloma skaiciu", "");
+      var secondNumber = prompt("Iveskite dalikli", "");
+      var answer = getDivisionResult(firstNumber, secondNumber);
+
+      console.log(answer);
+      alert(answer);
+
+      function getDivisionResult(number1, number2) {
+        if (isNaN(number1) || isNaN(number2)) {
+          console.log("Ivestas ne skaicius");
+          alert("Ivestas ne skaicius");
+        } else {
+          var division = Number(number1) / Number(number2);
+          return division;
+        }
+      }
+    </script>
+  </body>
+</html>
