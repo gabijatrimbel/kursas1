@@ -5,6 +5,7 @@
     <title></title>
   </head>
   <body>
+    <form class="" action="index.html" method="post">
     <fieldset>
       <legend>Jūsų informacija</legend>
       Vardas: &nbsp;
@@ -18,14 +19,12 @@
       <select class="" name="value">
         <option value="google">Google</option>
       </select><br><br>
-      Ar apsilankysite vėl?
-      <form action="index.html" method="post">
-        Taip <input type="radio" name="come-again" value="yes">
-        Ne <input type="radio" name="come-again" value="no">
-        Galbūt <input type="radio" name="come-again" value="maybe">
-      </form>
-      Ką manote apie kursą?
-      <textarea name="feedback" rows="8" cols="80"></textarea><br><br>
+      Ar apsilankysite vėl?<br>
+      Taip <input type="radio" name="come-again" value="yes">
+      Ne <input type="radio" name="come-again" value="no">
+      Galbūt <input type="radio" name="come-again" value="maybe"><br><br>
+      Ką manote apie kursą?<br>
+      <textarea name="feedback" rows="8" cols="80" placeholder="Rašykite viską ką galvojate"></textarea><br><br>
       Pažymėkite programavimo/žymėjimo kalbas su kuriomis esate susipažinę:<br>
       <table>
         <tr>
@@ -61,5 +60,6 @@
       </table><br><br>
       <input type="button" name="send" value="Siųsti">
     </fieldset>
+    </form>
   </body>
 </html>
