@@ -1,0 +1,53 @@
+.content{
+  width: 750px;
+}
+.first-section{
+  background-color: #FEF369;
+  padding: 25px 20px;
+}
+.second-section{
+  background-color: #98E685;
+  padding: 20px 20px;
+  margin-top: 5px;
+}
+.table-1{
+  width: 600px;
+}
+.col-1{
+  width: 200px;
+}
+td, th{
+  height: 40px;
+  padding: 0px;
+}
+.reg-button, input{
+  width: 95%;
+  height: 90%;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1px 5px;
+}
+.reg-button{
+  width:99%;
+}
+.table-2 table{
+  width: 700px;
+  border-spacing: 0px;
+  border: 1px solid black;
+}
+th{
+  background-color: #DEA2D7;
+}
+.name-col {
+  width: 70%;
+}
+.surname-col{
+  width:10%;
+}
+.email-col{
+  width:20%;
+}
+.table-2 td{
+  border: 1px solid black;
+  padding: 1px 10px;
+}
