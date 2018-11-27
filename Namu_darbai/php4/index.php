@@ -23,10 +23,10 @@ $cities2['londonas']= 8.6;
     </ul>
 
     <ul>
-      <li><?php echo $cities[3] ." - gyventojų skaičius: " . $cities2['tokijas'] ; ?></li>
-      <li><?php echo "Vasingtonas - gyventojų skaičius: " . $cities2['vasingtonas'] ; ?></li>
-      <li><?php echo "Maskva - gyventojų skaičius: " . $cities2['maskva'] ; ?></li>
-      <li><?php echo $cities[2] ." - gyventojų skaičius: " . $cities2['londonas'] ; ?></li>
+      <li><?php echo $cities[3] .' - gyventojų skaičius: ' . $cities2['tokijas'] . ' mln.'; ?></li>
+      <li><?php echo 'Vasingtonas - gyventojų skaičius: ' . $cities2['vasingtonas'] . ' mln.'; ?></li>
+      <li><?php echo 'Maskva - gyventojų skaičius: ' . $cities2['maskva'] . ' mln.'; ?></li>
+      <li><?php echo $cities[2] .' - gyventojų skaičius: ' . $cities2['londonas'] . ' mln.'; ?></li>
     </ul>
   </body>
 </html>
